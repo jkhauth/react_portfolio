@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+h1 {
+    font-size: 60px;
+    font-family: "Poller One";
+    color: white;
+}
+
+
+h3, h2{
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+}
+
+body {
+    background-color:#104166;
+}
+
+.sectionheader{
+    text-decoration: underline;
+}
+
+.projectdiv{
+    background-color: #567892;
+}
+
+button {
+    background-color: #104166;
+    color: white;
+}
+
+button:hover{
+    background-color: #6191b5;
+}

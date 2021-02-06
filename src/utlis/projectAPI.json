@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "id": "01",
+            "projecttitle": "this title",
+            "projectdescription": "this is a project description",
+            "languages": "javascript, node, sass",
+            "githuburl": "wwww.google.com",
+            "applicationurl": "wwww.espn.com"
+        },
+        {
+            "id": "02",
+            "projecttitle": "this new title",
+            "projectdescription": "this is a project description",
+            "languages": "javascript, node, sass",
+            "githuburl": "wwww.google.com",
+            "applicationurl": "wwww.espn.com"
+        }
+    ]
+}
