@@ -2,19 +2,58 @@
     "projects": [
         {
             "id": "01",
-            "projecttitle": "this title",
-            "projectdescription": "this is a project description",
+            "projecttitle": "Dungeon Master Manager",
+            "imagesrc": "https://dungeon-master-manager-jkhauth.herokuapp.com/imgs/logo_v2.png",
+            "projectdescription": "As a dungeon master, you need to keep track of all the characters in your game and keep track of where you are in the story. Using DMM, you can go into your profile and create stories and characters.",
             "languages": "javascript, node, sass",
-            "githuburl": "wwww.google.com",
-            "applicationurl": "wwww.espn.com"
+            "githuburl": "https://github.com/jkhauth/Dungeon-Master-Manager",
+            "applicationurl": "https://dungeon-master-manager-jkhauth.herokuapp.com/"
         },
         {
             "id": "02",
-            "projecttitle": "this new title",
-            "projectdescription": "this is a project description",
+            "projecttitle": "THme",
+            "imagesrc": "https://dmitriso.github.io/THme/assets/images/THme.png",
+            "projectdescription": "This app has been created between four full-stack developer students calling themselves GreenLight. Using the tools we've learned and/or self-taught, we've built this app to recommend medical cannabis strains for the user's ailments. Based on the user symptoms, certain medicinal cannabis strains are recommended. The recommendations for medical cannabis are selected and pulled from a server-side API (The Strain API). Along with cannabis strains, a selection of herbal home remedies is also recommended to the user. Those holistic remedies are sourced and pulled from another server-side API (Personal Remedies API).",
             "languages": "javascript, node, sass",
-            "githuburl": "wwww.google.com",
-            "applicationurl": "wwww.espn.com"
+            "githuburl": "https://github.com/jkhauth/budget-tracker",
+            "applicationurl": "https://budget-journal-jkhauth.herokuapp.com/"
+        },
+        {
+            "id": "03",
+            "projecttitle": "Employee Directory",
+            "imagesrc": "https://user-images.githubusercontent.com/72667159/106917151-fc2ff280-66d5-11eb-92be-57d93c85fe75.JPG",
+            "projectdescription": "This is a React based application, demonstrating the solutions on rerendering API information seemlessly. Using an employee dictory as a visual for these solutions, you are able to see all employees, search a specific, or sort them in a particular way.",
+            "languages": "javascript, node, sass",
+            "githuburl": "https://github.com/jkhauth/employee-directory",
+            "applicationurl": "https://jkhauth.com/employee-directory/"
+        },
+        {
+            "id": "04",
+            "projecttitle": "Budget Tracker",
+            "imagesrc": "https://user-images.githubusercontent.com/72667159/106515459-b7bd1080-64a3-11eb-88be-6b145e1f8129.JPG",
+            "projectdescription": "This application demonstrates the functionality of having an application take in data if it is online or offline and updating the database. We using Mongodb to set up our database online, then we can use Indexddb to save our progress if we lose connection. Use this application to track funds on the go or offline.",
+            "languages": "javascript, node, sass",
+            "githuburl": "https://github.com/jkhauth/budget-tracker",
+            "applicationurl": "https://budget-journal-jkhauth.herokuapp.com/"
+        },
+        {
+            "id": "05",
+            "projecttitle": "Grocery List",
+            "imagesrc": "https://user-images.githubusercontent.com/72667159/104501649-01ee5880-55ae-11eb-825c-1822dda79598.gif",
+            "projectdescription": "Using the application, a user can build a grocery list (create items, read those items, update when you get an item, and delete items on the list)",
+            "languages": "javascript, node, sass",
+            "githuburl": "https://github.com/jkhauth/grocery-list",
+            "applicationurl": "https://grocery-list-jkhauth.herokuapp.com/burgers"
+        },
+        {
+            "id": "06",
+            "projecttitle": "Code Engine",
+            "imagesrc": "https://user-images.githubusercontent.com/72667159/100682057-329e6980-3343-11eb-810c-76c18e88ba88.JPG",
+            "projectdescription": "Keeping your information private on the internet is hard and its easy using the same password over and over again. This application helps you create an unique password to keep your ID safe.",
+            "languages": "javascript, node, sass",
+            "githuburl": "https://github.com/jkhauth/code-engine",
+            "applicationurl": "https://jkhauth.com/code-engine/"
         }
+
     ]
 }

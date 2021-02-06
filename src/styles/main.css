@@ -12,6 +12,10 @@ h3, h2{
     color: white;
 }
 
+h4{
+    color: white;
+}
+
 p{
     font-size: 18px;
     color: white;
@@ -27,6 +31,18 @@ body {
 
 .projectdiv{
     background-color: #567892;
+    border-radius: 10px;
+    box-shadow: 7px 2px 5px 0px #6d91ad;
+    border: 3px solid white;
+}
+
+.projectimg{
+    max-width: 300px;
+    border: 1px solid white;
+}
+
+.projectdescription {
+    max-width: 600px;
 }
 
 button {
