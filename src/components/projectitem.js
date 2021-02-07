@@ -1,7 +1,4 @@
-import { logDOM } from '@testing-library/react';
 import React from 'react';
-// import dmmlogo from "../utlis/images/dmm-logo.png"
-// src\utlis\images\dmm-logo.png
 const ProjectItem = ({project}) => {
 
 return (

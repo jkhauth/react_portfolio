@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 
+.application{
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 h1 {
-    font-size: 60px;
+    font-size: 45px;
     font-family: "Poller One";
     color: white;
 }
@@ -43,6 +50,10 @@ body {
 
 .projectdescription {
     max-width: 600px;
+}
+
+.aboutmedescription{
+    max-width: 680px;
 }
 
 button {
