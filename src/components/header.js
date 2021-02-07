@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { useTransition, animated } from "react-spring";
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     const [show] = useState(true)
@@ -12,7 +13,17 @@ const Header = () => {
         <animated.div key={key} style={props}>
         <h1 className="text-right">John Hauth</h1>
         <h1 className="text-right">Software Developer</h1>
-        <h1 className="text-right">links</h1>
+        <ul className="text-right">
+            <Link to="/">
+            <li>Home</li>
+            </Link>
+            <Link to="/skills">
+            <li>Skills</li>
+            </Link>
+            <Link to="/projects">
+            <li>Projects</li>
+            </Link>
+        </ul>
         </animated.div>
     ))
 }
