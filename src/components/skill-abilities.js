@@ -1,5 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion'
+import picture from "../utils/computer.gif"
 //MAIN PROJECTS SECTION
 
 const Skills = () => {
@@ -18,7 +19,7 @@ return (
     <div className="d-flex flex-column skillscontent p-2">
     <h1 className="text-center sectionheader skillshead">Skills & Abilites</h1>
     <div className="d-flex flex-row flex-wrap">
-    <img className="img-fluid px-2" src="https://via.placeholder.com/350" alt="responsive"></img>
+    <img className="img-fluid px-2" src={picture} alt="computer gif credit to the curious brain"></img>
     <div className="d-flex flex-column px-2">
     <h2 className="text-center">This are my skills</h2>
     <h4 className="text-center">responsive web pages</h4>

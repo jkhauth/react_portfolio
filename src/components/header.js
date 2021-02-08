@@ -11,19 +11,19 @@ const Header = () => {
     })
     return(transitions.map(({ item, key, props }) =>item && 
         <animated.div key={key} style={props}>
-        <h1 className="text-right">John Hauth</h1>
-        <h1 className="text-right">Software Developer</h1>
-        <ul className="text-right">
+        <h1 className="text-center">John Hauth</h1>
+        <h3 className="text-center">Full-Stack Software Developer</h3>
+        <div className="d-flex flex-row justify-content-center">
             <Link to="/">
-            <li>Home</li>
+            <button className="mx-2">Home</button>
             </Link>
             <Link to="/skills">
-            <li>Skills</li>
+            <button className="mx-2">Skills</button>
             </Link>
             <Link to="/projects">
-            <li>Projects</li>
+            <button className="mx-2">Projects</button>
             </Link>
-        </ul>
+        </div>
         </animated.div>
     ))
 }

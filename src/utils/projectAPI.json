@@ -5,7 +5,7 @@
             "projecttitle": "Dungeon Master Manager",
             "imagesrc": "https://dungeon-master-manager-jkhauth.herokuapp.com/imgs/logo_v2.png",
             "projectdescription": "As a dungeon master, you need to keep track of all the characters in your game and keep track of where you are in the story. Using DMM, you can go into your profile and create stories and characters.",
-            "languages": "javascript, node, sass",
+            "languages": ["javascript", "html", "css"],
             "githuburl": "https://github.com/jkhauth/Dungeon-Master-Manager",
             "applicationurl": "https://dungeon-master-manager-jkhauth.herokuapp.com/"
         },
