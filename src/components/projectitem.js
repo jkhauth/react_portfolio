@@ -8,6 +8,14 @@ const ProjectItem = ({project}) => {
         border: "1px solid white"
       };
 
+    const buttonStyle = {
+    backgroundColor: "#104166",
+    color: "white",
+    borderRadius: "20px",
+    border: "2px solid white",
+    fontSize: "12px"
+    }
+    
 return (
 
 <div className="d-flex mb-3 flex-column align-items-center justify-content-center projectdiv mx-3 p-2">
@@ -19,12 +27,13 @@ return (
     <i className="fab fa-html5 mx-2"></i>
     <i className="fab fa-css3-alt mx-2"></i>
     <i className="fab fa-js-square mx-2"></i>
+    <button style={buttonStyle} href={project.applicationurl}>Application Url</button>
+    <button style={buttonStyle} href={project.githuburl}>GitHub Url</button>
     </div>
     <div className="d-flex projectdescription">
     <p className="text-justify mb-0">{project.projectdescription}</p>
     </div>
-    <a href={project.applicationurl}>Application Url</a>
-    <a href={project.githuburl}>GitHub Url</a>
+
     </div>
     </div>
 </div>

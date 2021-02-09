@@ -1,26 +1,23 @@
-import React, {useState} from 'react';
-import { useTransition, animated } from "react-spring";
+import React from 'react';
 import {Link} from 'react-router-dom'
 
 const Header = () => {
-    const [show] = useState(true)
-    const transitions = useTransition(show, null, {
-    delay: 5,
-    from: { opacity: 0 },
-    enter: { opacity: 1 },
-    })
 
     const buttonStyle = {
         backgroundColor: "#104166",
         color: "white",
         borderRadius: "20px",
-        border: "2px solid white"
+        border: "2px solid white",
+        fontSize: "12px"
     }
-
-    return(transitions.map(({ item, key, props }) =>item && 
-        <animated.div key={key} style={props}>
-        <h1 className="text-center">John Hauth</h1>
-        <h3 className="text-center">Full-Stack Software Developer</h3>
+    const headerstyle = {
+        backgroundColor: "darkslategray"
+    }
+    return(
+        <div style={headerstyle}>
+        <h1 className="text-center mb-0">John Hauth</h1>
+        <h3 className="text-center mb-0">Full-Stack</h3>
+        <h3 className="text-center">Software Developer</h3>
         <div className="d-flex flex-row justify-content-center">
             <Link to="/">
             <button style={buttonStyle} className="mx-2">Home</button>
@@ -35,8 +32,9 @@ const Header = () => {
             <button style={buttonStyle} className="mx-2">Projects</button>
             </Link>
         </div>
-        </animated.div>
-    ))
+        <hr></hr>
+        </div>
+    )
 }
 
 export default Header;
