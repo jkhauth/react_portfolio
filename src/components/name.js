@@ -15,10 +15,13 @@ const pageTransition = {
         x: "-100vh"
     }
 }
+
+const linkstyle = {
+    color: "white"
+}
+
 return (
-<motion.div 
-initial="out" animate="in" exit="out" variants={pageTransition}
-className="namediv d-flex flex-column flex-wrap align-items-center justify-content-center mt-5 p-2">
+<motion.div initial="out" animate="in" exit="out" variants={pageTransition} className="namediv d-flex flex-column flex-wrap align-items-center justify-content-center mt-5 p-2">
     <div className="d-flex flex-row flex-wrap align-items-center justify-content-center p-2">
     <img className="img-fluid img-thumbnail px-3 py-3" src={picture} alt="responsive"></img>
     <div className="aboutmedescription d-flex flex-column">
@@ -27,10 +30,10 @@ className="namediv d-flex flex-column flex-wrap align-items-center justify-conte
 I am currently obtaining a certification in Full Stack Development from the University of Pennsylvania. I am excited to increase my knowledge in the fundamentals and ethics of web development.
 In my free time I enjoy making my own hot sauce, playing fantasy football, and reading any Batman comic I can! I enjoy meeting new people and exploring any new Mexican restaurant. Feel free to reach out and lets build something together!</p>
     <div className="d-flex flex-row flex-wrap justify-content-center">
-    <a className="px-2" href={resume} download>Resume</a>
-    <a className="px-2" href="mailto:jkhauth@gmail.com">Email</a>
-    <a className="px-2" href="https://github.com/jkhauth">GitHub</a>
-    <a className="px-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
+    <a style={linkstyle} className="px-2" href={resume} download>Resume</a>
+    <a style={linkstyle} className="px-2" href="mailto:jkhauth@gmail.com">Email</a>
+    <a style={linkstyle} className="px-2" href="https://github.com/jkhauth">GitHub</a>
+    <a style={linkstyle} className="px-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
     </div>
     </div>
     </div>

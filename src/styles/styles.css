@@ -9,9 +9,10 @@
     height: 100%;
 }
 
-ul{
+ul {
     list-style: none;
     display: block;
+    
 }
 
 h1 {
@@ -21,11 +22,11 @@ h1 {
 }
 
 .slogan{
-    box-shadow: inset -10px -6px rgb(26 157 255);
+    box-shadow: inset -10px -6px rgb(0 183 181);
 }
 
 .skillshead{
-    box-shadow: inset 6px -5px rgb(26 157 255);
+    box-shadow: inset 6px -5px rgb(0 183 181);
 }
 
 h3, h2{
@@ -43,10 +44,6 @@ p{
     color: white;
 }
 
-body {
-    background-color:#0299dc;
-}
-
 i {
     font-size: 30px;
     color: white;
@@ -57,30 +54,23 @@ i {
 }
 
 .projectdiv{
-    background-color: #567892;
+    background-color: #019ea8;
     border-radius: 10px;
-    box-shadow: 7px 2px 5px 0px #6d91ad;
+    box-shadow: 7px 2px 5px 0px #b5ffe5;
     border: 3px solid white;
-}
-
-.projectimg{
-    max-width: 250px;
-    border: 1px solid white;
 }
 
 .projectdescription {
     max-width: 600px;
 }
 
-.aboutmedescription{
-    max-width: 680px;
+.img-thumbnail {
+    background-color: #018fa3 !important;
+    border: 1px solid #018fa3 !important;
 }
 
-button {
-    background-color: #104166;
-    color: white;
-    border-radius: 10px;
-    border: 2px solid white;
+.aboutmedescription{
+    max-width: 680px;
 }
 
 button:hover{
