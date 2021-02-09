@@ -24,9 +24,6 @@ return (
     <div className="d-flex flex-column align-items-center justify-content-center">
     <h2 className="text-center sectionheader">{project.projecttitle}</h2>
     <div className="d-flex flex-row">
-    <i className="fab fa-html5 mx-2"></i>
-    <i className="fab fa-css3-alt mx-2"></i>
-    <i className="fab fa-js-square mx-2"></i>
     <button style={buttonStyle} href={project.applicationurl}>Application Url</button>
     <button style={buttonStyle} href={project.githuburl}>GitHub Url</button>
     </div>

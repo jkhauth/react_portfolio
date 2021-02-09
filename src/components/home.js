@@ -10,7 +10,7 @@ return (
  <Fade cascade>
      <h1 className="text-center">thinker.</h1>
      <h1 className="text-center">developer.</h1>
-     <h1 className="text-center">inovator.</h1>
+     <h1 className="text-center">innovator.</h1>
      <div className="d-flex justify-content-center">
      <h1 className="text-center mt-3">let's build together...</h1>
      </div>

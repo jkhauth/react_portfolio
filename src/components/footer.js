@@ -18,16 +18,17 @@ const Footer = () => {
         marginTop: "50px"
     }
     return(
-        <div style={footerstyle} className="footer mb-2">
+        <div style={footerstyle} className="footer">
         <div className="d-flex flex-row flex-wrap justify-content-center align-items-center">
-        <button style={buttonStyle} className="px-2 mx-2" href={resume} download>Resume</button>
+        <a style={buttonStyle} className="px-2 mx-2" href={resume} download>Resume</a>
         <p style={dividerstyle} className="mb-0">|</p>
-        <button style={buttonStyle} className="px-2 mx-2" href="mailto:jkhauth@gmail.com">Email</button>
+        <a style={buttonStyle} className="px-2 mx-2" href="mailto:jkhauth@gmail.com">Email</a>
         <p style={dividerstyle} className="mb-0">|</p>
-        <button style={buttonStyle} className="px-2 mx-2" href="https://github.com/jkhauth">GitHub</button>
+        <a style={buttonStyle} className="px-2 mx-2" href="https://github.com/jkhauth">GitHub</a>
         <p style={dividerstyle} className="mb-0">|</p>
-        <button style={buttonStyle} className="px-2 mx-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</button>
+        <a style={buttonStyle} className="px-2 mx-2" href="https://www.linkedin.com/in/john-k-hauth/">LinkedIn</a>
         </div>
+        <p className="text-center mb-0"><u>this jkhauth app was created with react</u></p>
         </div>
     )
 }
