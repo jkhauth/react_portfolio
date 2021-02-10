@@ -45,14 +45,17 @@ return (
     <div className="d-flex flex-column px-2 justify-content-center">
     <h2 className="text-center skillshead"><u>Business meets tech...</u></h2>
     <div style={textbox}>
-    <p className="text-justify">For the past several years, I have been working as a leader of the hospitality industry. Every year, I have moved into a higher position because of hard-work and dedication to each task and job I took on. I have dedicated myself on bringing the best customer service I can and hitting my goals every time they are assigned. I love working in teams but I also shine when working independently.</p>
+    <p className="text-justify">Over the past several years, I have held various leadership positions within the hospitality industry. Hard work, determination, and a passion for customer service is what has afforded me these positions and learning opportunities. In each new role, I dedicated myself to bringing the best customer service to our patrons, hitting my company and personal goals every time they were assigned.</p> <p> I am grateful for this time in this industry as it  taught me how to be a team player and adaptablity when situations become difficult. While I love working in teams and providing mentorship to my colleagues, I also shine when working independently. I hold myself accountable to producing the highest quality work.</p>
     </div>
-    <div className="d-flex flex-wrap flex-column justify-content-center align-items-center">
+    <div className="d-flex flex-wrap flex-row justify-content-center">
+    <div className="d-flex flex-column flex-wrap mx-2">
     <h4>Education:</h4>
     <h5><u>East Stroudsburg University:</u></h5> 
     <h6>Bachelors of Science 2011-2016</h6>
     <h5><u>University of Philadelphia:</u></h5>
     <h6>Full-Stack Development 2020-2021</h6>
+    </div>
+    <div className="d-flex flex-column justify-content-center">
     <div className="d-flex flex-wrap flex-row">
     {/* Framework section */}
     <div className="d-flex flex-column align-items-center mx-2 ">
@@ -87,13 +90,14 @@ return (
     <img style={badestyle} alt="Figma" src="https://img.shields.io/badge/figma%20-%23F24E1E.svg?&style=plastic&logo=figma&logoColor=white"/>
     </div>
     </div>
-    </div>
     <div className="d-flex flex-column align-items-center">
-    {/* Design section */}
+    {/* Operating section */}
     <h4 className="text-center font-italic"><u>Operating System:</u></h4>
     <img style={badestyle2} alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=plastic&logo=windows&logoColor=white" />
     <img style={badestyle2} alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=plastic&logo=android&logoColor=white" />
     <img style={badestyle} alt="IOS" src="https://img.shields.io/badge/iOS-000000?style=plastic&logo=ios&logoColor=white" />
+    </div>
+    </div>
     </div>
     </div>
     </div>
